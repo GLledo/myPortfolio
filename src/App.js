@@ -9,7 +9,8 @@ import Mynavbar from  './components/ui/Navbar'
 import MyCarousal from "./components/pages/carousal/Carousal"
 import TitleMsg from "./components/pages/title-carousal/title"
 import Footer from "./components/pages/footer/footer"
-import Skills from "./components/pages/skills/skills.jsx";
+import Skills from "./components/pages/skills/skills";
+import About from "./components/pages/about/about"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+      <About></About>
       <Footer></Footer>
     </div>
     
