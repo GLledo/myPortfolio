@@ -2,11 +2,10 @@ import L_HTML5 from "../../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP from "../../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../../assets/img/skills/react.svg";
-import L_REDUX from "../../../assets/img/skills/redux.svg";
 import L_REACT_BOOTSTRAP from "../../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../../assets/img/skills/postgresql.svg";
+import L_MONGODB from "../../../assets/img/skills/mongodb.svg";
 import L_MSSQL from "../../../assets/img/skills/mssql.svg";
 import L_GIT from "../../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../../assets/img/skills/heroku.svg";
@@ -45,12 +44,6 @@ export const skills = {
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
     },
     {
       link: "https://react-bootstrap.github.io/",
@@ -105,10 +98,10 @@ export const skills = {
   ],
   databases: [
     {
-      link: "https://www.postgresql.org/",
+      link: "https://www.mongodb.com/what-is-mongodb",
       imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "Change",
+      imgSrc: L_MONGODB,
+      skillName: "MongoDB",
     },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
