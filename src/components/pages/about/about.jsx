@@ -5,9 +5,8 @@ import "./about.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Profile from "../../../assets/img/profile/manolo.jpeg";
+import Profile from "../../../assets/img/profile/img_profile.JPG";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
 
 const About = () => {
 
@@ -33,36 +32,6 @@ const About = () => {
                     <br />
                     Along with that, I also help people as a COACH on their journey of becoming a professional programmer. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                     <br /> <br />
-                    <Col className="d-flex justify-content-center flex-wrap">
-                      <div>
-                        <a href="#contact">
-                          <Button className="m-2" variant="outline-primary">
-                            Let's talk
-                          </Button>
-                        </a>
-                      </div>
-                      <div>
-                        <a href="https://drive.google.com/file/d/1MOzv1uAOadz1H8F8apv50F9RHTeTZHiu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                          <Button className="m-2" variant="outline-success">
-                            My Resume
-                          </Button>
-                        </a>
-                      </div>
-                      <div>
-                        <a href="https://github.com/GLledo" target="_blank" rel="noopener noreferrer">
-                          <Button className="m-2" variant="outline-dark">
-                            GitHub
-                          </Button>
-                        </a>
-                      </div>
-                      <div>
-                        <a href="www.linkedin.com/in/gonzalo-lledó-goitia" target="_blank" rel="noopener noreferrer">
-                          <Button className="m-2" variant="outline-info">
-                            LinkedIn
-                          </Button>
-                        </a>
-                      </div>
-                    </Col>
                   </Row>
                 </Col>
               </Row>

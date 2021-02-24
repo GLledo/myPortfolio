@@ -101,7 +101,7 @@ export const skills = {
       link: "https://www.mongodb.com/what-is-mongodb",
       imgAltText: "PostgreSQL",
       imgSrc: L_MONGODB,
-      skillName: "MongoDB",
+      skillName: "MongoDBnpm",
     },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",

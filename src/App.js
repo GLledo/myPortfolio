@@ -12,7 +12,7 @@ import Footer from "./components/pages/footer/footer"
 import Skills from "./components/pages/skills/skills";
 import About from "./components/pages/about/about"
 import Objective from "./components/pages/objective/objective"
-
+import Contact from "./components/pages/contact/contact"
 const App = () => {
   return (
     
@@ -25,10 +25,11 @@ const App = () => {
           <hr />
           <Skills/>
         </Slide>
-        <Objective></Objective>
+        <Objective/>
+        <About/>
+        <Contact/>
       </Container>
-      <About></About>
-      <Footer></Footer>
+      <Footer/>
     </div>
     
   );
